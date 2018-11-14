@@ -5,7 +5,7 @@ def no_puppies(number)
     puts "Good job, Rachel!"
   end
 end
-no_puppies(1)
+no_puppies(0)
 
 def less_puppies(number)
   if number<3
@@ -34,4 +34,4 @@ def new_animal(puppies,cats)
     puts "Slow down!"
   end
 end
-new_animal(3,3)
+new_animal(0,0)
