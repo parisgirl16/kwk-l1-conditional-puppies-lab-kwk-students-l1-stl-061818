@@ -2,7 +2,7 @@ def no_puppies(number)
   if number > 0
     puts "No more puppies!"
   elsif number <= 0
-    puts "Well done, Rachel!"
+    puts "Good job, Rachel!"
   end
 end
 no_puppies(1)
@@ -14,7 +14,7 @@ def less_puppies(number)
     puts "Slow down!"
   elsif number>3
     puts "Get back to animal restriction!"
-end
+  end
 end
 less_puppies(2)
 
@@ -23,7 +23,7 @@ def some_puppies(number,maximum)
     puts "Good job!"
   elsif maximum<number
     puts "Go back to puppy restriction."
-end
+  end
 end
 some_puppies(3,5)
 
