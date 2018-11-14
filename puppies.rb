@@ -13,7 +13,7 @@ def less_puppies(number)
   elsif number==3
     puts "Slow down!"
   elsif number>3
-    puts "Get back to animal restriction!"
+    puts "Slow down! No more puppies."
   end
 end
 less_puppies(2)
@@ -25,7 +25,7 @@ def some_puppies(number,maximum)
     puts "Go back to puppy restriction."
   end
 end
-some_puppies(3,5)
+some_puppies(2,6)
 
 def new_animal(puppies,cats)
   if puppies == 0 && cats == 0
